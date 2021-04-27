@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README is for documenting the commands made for generating the rails app, models, migrations and others.
 
-Things you may want to cover:
+Commands:
 
-* Ruby version
+* For creating our Rails App: rails  new myarticles --api
 
-* System dependencies
+* For creating our Models: rails g model Article title:string body:text
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* 
 
 * ...
