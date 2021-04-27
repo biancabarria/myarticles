@@ -8,6 +8,6 @@ Commands:
 
 * For creating our Models: rails g model Article title:string body:text
 
-* 
+* Run the migrations: rails db:migrate
 
 * ...
