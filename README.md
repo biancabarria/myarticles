@@ -10,4 +10,4 @@ Commands:
 
 * Run the migrations: rails db:migrate
 
-* ...
+* Run the seed Ruby file: rails db:seed
