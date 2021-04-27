@@ -29,7 +29,7 @@ module Api
 
             def update
                 article = Article.find(params[:id])
-                if article.update_attributes(article_params_params)
+                if article.update_attributes(article_params)
                     render json: {status: 'SUCCESS', message: 'Updated article', data: article}, status: :ok
                 else
                     render json: {status: 'ERROR', message: 'Article not updated', data: article.errors}, status: :unprocessable_entity
